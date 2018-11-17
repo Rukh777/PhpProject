@@ -1,0 +1,16 @@
+id n
+name
+date of birth
+age
+address city state pincode e
+description
+long description
+service pt
+certifiavcte
+contact
+photo
+
+
+<2>collecton table name
+id 
+cateegory 

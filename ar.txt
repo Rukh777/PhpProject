@@ -1,0 +1,249 @@
+127.0.0.1 »rstudio »entry
+Browse
+Structure
+SQL
+Search
+Insert
+Export
+Import
+Operations
+Tracking
+Triggers
+Showing rows 0 - 11 ( ~12 total , Query took 0.0017 sec) [id: 35 - 51]
+SELECT * 
+FROM  `entry` 
+ORDER BY  `id` ASC 
+LIMIT 0 , 30
+ Profiling [Inline] [ Edit ] [ Explain SQL ] [ Create PHP Code ] [ Refresh ]
+
+ Show : Start row:  
+0
+ Number of rows:  
+30
+ Headers every 
+100
+ rows
+Sort by key: 
+
++ Options
+ Full texts	
+id Ascending
+designer
+style
+type
+state
+city
+area
+unit
+covered
+unitt
+photo
+Budget
+
+Edit Edit
+ Copy Copy
+ Delete Delete
+35
+Anjali Rawat
+Bedroom
+Contemporary
+Andhra Pradesh
+Hyderabad
+32
+Sq.ft
+32
+Sq.ft
+modern-red-elegant-master-bedroom.jpg
+Thousands
+
+Edit Edit
+ Copy Copy
+ Delete Delete
+36
+Neelu Singh
+Bathroom
+Eclectic
+Delhi
+Delhi
+120
+Sq.yards
+120
+Sq.yards
+b6.jpg
+Lakh
+
+Edit Edit
+ Copy Copy
+ Delete Delete
+37
+Mansa Bhardawaj
+Kitchen
+Victorian
+Gujarat
+Ahmedabad
+32
+Acres
+32
+Acres
+6tag-718405706-1259216865763987437_718405706.jpg
+Crore
+
+Edit Edit
+ Copy Copy
+ Delete Delete
+38
+Pawan K
+Dinning Room
+Traditional
+Gujarat
+surat
+140
+Sq.ft
+140
+Sq.ft
+dr1.jpg
+LAKH
+
+Edit Edit
+ Copy Copy
+ Delete Delete
+39
+Prateek Khandare
+Living Room
+Modern
+Goa
+Goa
+124
+Sq.yards
+1245
+Sq.yards
+a9615d3c0373cad7_6233-w500-h500-b0-p0--contemporar...
+Crore
+
+Edit Edit
+ Copy Copy
+ Delete Delete
+40
+Ra Prem
+FarmHouse
+Farm House
+Madhya Pradesh
+Indoor
+1000
+Sq.ft
+1200
+Sq.ft
+6tag-718405706-1258498118463983143_718405706.jpg
+Lakh
+
+Edit Edit
+ Copy Copy
+ Delete Delete
+41
+Sanjeev Khanna
+Ofiice Room
+Industrial
+Maharashtra
+Mumbai
+90
+Acres
+90
+Acres
+h5.png
+Crore
+
+Edit Edit
+ Copy Copy
+ Delete Delete
+42
+Sonali shah
+Outdoor
+Beach Style
+Punjab
+Chandigarh
+49
+Sq.ft
+78
+Sq.ft
+roundkit.jpg
+Lakh
+
+Edit Edit
+ Copy Copy
+ Delete Delete
+43
+Vinay Soni
+Library Room
+Asian Style
+Rajasthan
+Udaipur
+89
+Sq.ft
+98
+Sq.ft
+home library.jpg
+Lakh
+
+Edit Edit
+ Copy Copy
+ Delete Delete
+44
+-----select-------
+-----select-------
+-----select-------
+-----select-------
+-----select-------
+0
+-----select-------
+0
+-----select-------
+a9615d3c0373cad7_6233-w500-h500-b0-p0--contemporar...
+-----select-------
+
+Edit Edit
+ Copy Copy
+ Delete Delete
+45
+Vinay Soni
+Home Office
+Beach Style
+Rajasthan
+Bikaner
+123
+Sq.yards
+234
+Sq.yards
+off2.jpg
+Crore
+
+Edit Edit
+ Copy Copy
+ Delete Delete
+51
+Anjali Rawat
+FarmHouse
+Victorian
+Rajasthan
+Jaipur
+123
+Sq.yards
+123
+Sq.yards
+fb1.jpg
+Crore
+With selected: Check All / Uncheck All With selected: Change Change Delete Delete Export Export 
+ Show : Start row:  
+0
+ Number of rows:  
+30
+ Headers every 
+100
+ rows
+Query results operations
+Print view Print view  Print view (with full texts) Print view (with full texts)  Export Export  Display chart Display chart  Create view Create view
+
+ Bookmark this SQL query Bookmark this SQL query
+Label:  
+  Let every user access this bookmark
+Bookmark this SQL query
+ Open new phpMyAdmin window

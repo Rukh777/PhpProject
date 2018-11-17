@@ -1,0 +1,12 @@
+<div id="sideviewmenu">
+
+<ul class="menulinks">
+<li><a href="http://www.dynamicdrive.com">Home</a></li>
+<li><a href="http://www.dynamicdrive.com/new.htm">What's New</a></li>
+<li><a href="http://www.dynamicdrive.com/forums/">Photo Gallery</a></li>
+<li><a href="http://tools.dynamicdrive.com">Ideas for Design</a></li>
+<li><a href="http://www.javascriptkit.com">ABOUT US</a></li>
+<li><a href="http://www.cssdrive.com">Contact us</a></li>
+</ul>
+
+</div>

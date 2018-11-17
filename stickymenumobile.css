@@ -1,0 +1,104 @@
+/* 
+	Full screen menu style in mobile devices
+	700px or less device width by default
+*/
+
+
+@media (max-device-width: 700px){ 
+
+button#stickymobiletoggler{   /* Main toggler button to toggle mobile menu state */
+  z-index: 100;
+  display: block; /* show mobile menu toggler */
+  position: relative;
+  font-size: 11px; /* change font size to change label dimensions. Leave width/height below alone */
+  width: 3em;
+  height: 2.4em;
+  top: 0;
+  left: 0;
+  margin: 10px 0;
+  background: white;
+  border: 0.4em solid black; /* border color */
+  border-width: 0.4em 0;
+  z-index: 10000;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+
+button#stickymobiletoggler::before,
+button#stickymobiletoggler::after {
+  /* inner stripes inside toggler */
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 0.4em;
+  top: 50%;
+  margin-top: -0.2em;
+  left: 0;
+  background: black; /* stripes background color. Change to match border color of parent label above */
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  transition: all 0.3s ease-in;
+}
+
+button#stickymobiletoggler.open{
+  /* state of mobile menu toggler when menu is open  */
+  border-color: transparent;
+}
+
+button#stickymobiletoggler.open::before{
+  /* state of mobile menu toggler when menu is open  */
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+
+button#stickymobiletoggler.open::after {
+  /* state of mobile menu toggler when menu is open  */
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+div#stickymenudiv{
+  display: none;
+  box-shadow: none !important;
+}
+
+div#stickymenudiv.open{ /* #stickymenudiv style when mobile menu is open */
+	position: fixed;
+  display: table;
+  top: 0;
+  left: 0;
+  height: 100%;
+	overflow: auto;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+  animation: glidein 0.5s forwards; /* animate sticky menu into view */
+}
+
+div#stickymenudiv.open:after{
+  opacity: .9; /* opacity of background DIV when menu is sticky */
+}
+
+div#stickymenudiv.open ul{
+  font-size: 1.6em;
+}
+
+div#stickymenudiv.open ul li{
+  display: block;
+  text-align: center;
+  margin:  auto;
+}
+
+div#stickymenudiv.open ul li a{
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding: 20px 10px;
+  border-right-width: 0;
+  border-bottom: 1px solid #eee;
+  color: black;
+}
+  
+}

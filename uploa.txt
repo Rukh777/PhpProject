@@ -1,0 +1,49 @@
+<?php
+    $id= isset($_GET['id']) ? $_GET['id'] : '';
+										
+	mysql_connect("localhost","root","");
+	mysql_select_db("rstudio");
+												
+	$sql="select * from homeinsert where id='$id'";
+	$rs=mysql_query($sql);
+												
+	if($row=mysql_fetch_array($rs));
+	{
+			
+			$Catalog=$row[1];
+													
+												}
+?>
+<form method="post" action="catupdate.php">
+<table width='70%' border='1' align='center' cellpadding='10'>
+	<tr align='center'>
+		<td>Id</td>
+		<td><input type="text" name='id'  value=" 
+			<?php
+					echo $id;
+			?>
+			">
+		</td>
+	</tr>
+
+	<tr align='center'>
+		<td>Catalog</td>
+		<td><input type="text" name='cat'  value="  
+		
+			<?php echo 
+			
+			$Catalog;
+		?>
+			">
+		</td>
+	
+	</tr>
+
+	<tr>
+		
+		<td colspan="2" align="center"><input type="submit" value="update"></td>
+	</tr>
+
+
+</table>
+</form>

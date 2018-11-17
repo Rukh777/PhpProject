@@ -1,0 +1,49 @@
+<head>
+	<script>
+		var image1=new Image();
+		image1.src='h1.png';
+		
+		var image2=new Image();
+		image2.src='h2.png';
+		
+		var image3=new Image();
+		image3.src='h3.png';
+		
+		var image4=new Image();
+		image4.src='h4.png';
+		
+		var image5=new Image();
+		image5.src='h5.png';
+		
+		var image6=new Image();
+		image6.src='h6.png';
+		
+	</script>
+</head>
+
+<body>
+	<center>
+		<image src='h1.png' name='slide' height='250' width='1000'>
+	</center>
+	
+	<script>
+		var step=1;
+		function slideit()
+		{
+			if(!document)
+			return false;
+			
+			else
+			document.images.slide.src=eval("image"+step+".src");
+			
+			if(step<6)
+			{
+				step++;
+			}
+			else
+			step=1;
+			setTimeout("slideit()",1000);
+		}
+		slideit();
+	</script>
+</body>

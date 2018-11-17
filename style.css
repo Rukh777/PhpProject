@@ -1,0 +1,132 @@
+
+1.html, body {
+
+
+2.        font-family: "Verdana";
+
+
+3.}
+
+
+4..selector {
+
+
+5.        height: 300px;
+
+
+6.        width: 600px;
+
+
+7.        margin: auto;
+
+
+8.        position: absolute;
+
+
+9.        top: 0; left: 0; bottom: 200; right: 0;
+
+
+10.}
+
+
+11..dataFloat {
+
+
+12.        position: relative;
+
+
+13.        width: 300px;
+
+
+14.        max-height: 300px;
+
+
+15.        border: 1px solid black;
+
+
+16.        display: none;
+
+
+17.        overflow: auto;
+
+
+18.}
+
+
+19..dataLabel {
+
+
+20.        display: block;
+
+
+21.        width: 100%;
+
+
+22.        height: 100%;
+
+
+23.        padding:0;
+
+
+24.}
+
+
+25..dataLabel:hover {
+
+
+26.        background-color: #0078ff;
+
+
+27.}
+
+
+28..state, .city, .showData {
+
+
+29.        display: none;
+
+
+30.}
+
+
+31..showData {
+
+
+32.        position: relative;
+
+
+33.        width: 320px;
+
+
+34.        max-height: 300px;
+
+
+35.        border: 1px solid black;
+
+
+36.        display: none;
+
+
+37.        overflow: auto;
+
+
+38.}
+
+
+39..itemhover {
+
+
+40.        background-color: #0078ff;
+
+
+41.}
+
+
+42.#delCountry, #delState, #delCity {
+
+
+43.        display: none;
+
+
+44.}
+
